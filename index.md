@@ -2,7 +2,7 @@
 
 Este breve taller de R está orientado fundamentalmente a geógrafos sin experiencia en R o con poca experiencia en otros lenguajes de programación. Sin embargo, cualquiera con interés en realizar ciencia reproducible, automatizar su trabajo con datos y crear informes estadísticos puede encontrar interesante los contenidos que aquí se presenta.
 
-A lo largo de **dos sesiones de dos horas cada una* se tratará de que los alumnos alcancen los siguientes objetivos:
+A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alumnos alcancen los siguientes objetivos:
 
 1. Contextualizar R lo suficiente para facilitar el **autoaprendizaje**.
 2. Responder a la pregunta recurrente "***¿Por qué aprender R?***" (Si hay tareas que ya se sabe hacer en otras plataformas).
@@ -15,9 +15,9 @@ A lo largo de **dos sesiones de dos horas cada una* se tratará de que los alumn
 
 Existen otras herramientas que facilitan el análisis de datos de todo tipo (Excel, Tableau, PowerBI, Matlab, etc). Evidentemente cada herramienta tiene sus pros y contras por lo que hay que decidir sobre su uso teniendo en cuenta el máximo número de características, evitando al mismo tiempo malgastar esfuerzos con la herramienta equivocada. Los siguientes motivos 
 
-### R posee una combinación de características de lo más deseables
+### Características de R
 
-Según un estudio realizado por 
+Según un estudio realizado por [DS4B](http://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html#appendix-1) R posee una combinación ideal de las características siguientes:
 
 - Capacidades (1 = bajas, 10 = altas). Gran potencial, multiplataforma, colaborativo (*papers*), etc
 - Facilidad de aprendizaje (1 = difícil, 10 = fácil)
@@ -26,7 +26,7 @@ Según un estudio realizado por
 
 ![[source: buisiness-science.io](http://www.business-science.io/assets/ds4b_rating.png)](images/ds4b_rating.png)
 
-Finalmente, cuando se habla de curvas de aprendizaje y/o curvas de experiencia, hay que recordar la existencia de **discontinuidades en la curva de aprendizaje**.
+Finalmente, cuando se habla de curvas de aprendizaje y/o curvas de experiencia, hay que recordar la existencia de **[discontinuidades en la curva de aprendizaje(https://en.wikipedia.org/wiki/Experience_curve_effects)**.
 
 ### R vs Python
 
@@ -60,6 +60,9 @@ Evidentemente también hay manuales y libros que recogen toda esta información 
 ### R es perfecto para la generación de informes
 
 R destaca por su capacidad de crear informes y aplicaciones con mayor eficiencia que otras plataformas. Esto se puede sintetizar en el uso de [Rmarkdown](https://rmarkdown.rstudio.com/lesson-14.html) para la generación de informes y [Shiny](http://shiny.rstudio.com/) para la creación de aplicaciones web interactivas.
+
+<iframe id="example1" src="https://gallery.shinyapps.io/goog-trend-index/" style="border: none; width: 100%; height: 850px" frameborder="0"></iframe>
+
 
 ### Comunidad R
 
