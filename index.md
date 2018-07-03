@@ -107,5 +107,5 @@ Otras librerías menos conocidas también pueden ser consultadas en repositorios
 - ...
 
 
-# [Empezar a trabajar ->](tutorial.md)
+# [¡Empezar a trabajar!](r-basics.md)
 
