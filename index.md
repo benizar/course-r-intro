@@ -1,6 +1,6 @@
 # Introducción a la creación de informes con R (en 4 horas)
 
-Este breve taller de R está orientado fundamentalmente a geógrafos sin experiencia en R o con poca experiencia en otros lenguajes de programación. Sin embargo, cualquiera con interés en realizar ciencia reproducible, automatizar su trabajo con datos y crear informes estadísticos puede encontrar interesante los contenidos que aquí se presenta.
+Este breve taller de R está orientado a ~~geógrafos sin experiencia en R o con poca experiencia en otros lenguajes de programación. Sin embargo,~~ cualquiera con interés en realizar ciencia reproducible, automatizar su trabajo con datos y crear informes estadísticos a partir de sus datos.
 
 A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alumnos alcancen los siguientes objetivos:
 
@@ -66,6 +66,7 @@ Existen numerosos recursos online para aprender a realizar casi cualquier tarea 
 - [A (very) short introduction to R (2017)](docs/a-very-short-introduction-to-r.pdf)
 - [An Introduction to R (2018)](docs/r-intro.pdf)
 - Rstudio's R language introduction ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf))
+- ...
 
 Y las siguientes ***cheat sheets***:
 
@@ -74,16 +75,18 @@ Y las siguientes ***cheat sheets***:
 - [Importación de datos](docs/r-data-import-cheat-sheet.pdf)
 - [Visualización](docs/r-data-visualization-cheat-sheet.pdf)
 - [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf)
+- ...
 
 Evidentemente, también hay **manuales y libros** que recogen toda esta información (y mucho más):
 
 - [R in Action](https://www.manning.com/books/r-in-action-second-edition?a_bid=5c2b1e1d&a_aid=RiA2ed)
 - [R in 24 Hours, Sams Teach Yourself](https://www.amazon.com/24-Hours-Sams-Teach-Yourself/dp/0672338483)
 - [R for Everyone](https://www.amazon.com/Everyone-Advanced-Analytics-Graphics-Addison-Wesley/dp/013454692X/)
+- ...
 
-### R es perfecto para la generación de informes
+### Generación de informes con R
 
-R destaca por su capacidad de crear informes y aplicaciones con mayor eficiencia que otras plataformas. Esto se puede sintetizar en el uso de [Rmarkdown](https://rmarkdown.rstudio.com/lesson-14.html) para la generación de informes y [Shiny](http://shiny.rstudio.com/) para la creación de aplicaciones web interactivas.
+R destaca por su capacidad de crear informes y aplicaciones con mayor eficiencia que otras plataformas. Esto se puede sintetizar en el uso de [Rmarkdown](https://rmarkdown.rstudio.com/lesson-14.html) para la generación de **informes** y [Shiny](http://shiny.rstudio.com/) para la creación de **aplicaciones web interactivas**.
 
 <iframe id="example1" src="https://gallery.shinyapps.io/goog-trend-index/" style="border: none; width: 100%; height: 850px" frameborder="0"></iframe>
 
@@ -101,8 +104,8 @@ Otras librerías menos conocidas también pueden ser consultadas en repositorios
 
 - [R-Bloggers](https://www.r-bloggers.com/)
 - [The R graph gallery](https://www.r-graph-gallery.com/)
+- ...
 
 
-
-
+# [Empezar a trabajar ->](tutorial.md)
 
