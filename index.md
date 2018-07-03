@@ -10,6 +10,30 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 4. Comprender las características principales de las **estructuras y tipos de datos nativos** de R.
 5. Crear informes con **Rmarkdown** (con gráficas y mapas temáticos).
 
+## Desarrollo del taller
+
+### Primera sesión 
+
+Simultaneamente se realizarán las siguientes tareas:
+
+- Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
+- Lectura de la chuleta de [Base R](docs/base-r-cheat-sheet.pdf).
+- Caso de estudio sobre los asistentes al curso
+    - Varios métodos para preparar un dataset (manual, local y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/))
+    - Gráficos con R básico ([Link](https://www.harding.edu/fmccown/r/)).
+    - Gráficos con ggplot y mapas con ggplot ([Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)).
+    - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
+
+
+### Segunda sesión
+
+A partir de los contenidos creados en la sesión anterior se redactará un informe en [Rmarkdown](https://rmarkdown.rstudio.com/index.html) para demostrar todo lo trabajado durante el taller.
+
+Pasos a realizar:
+
+1. Utilizar una plantilla de Rstudio para crear un notebook de la sesión anterior.
+2. Revisar la cheat sheet de [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf) para estructurar el documento.
+
 
 ## Razones para aprender R
 
@@ -26,7 +50,7 @@ Según un estudio realizado por [DS4B](http://www.business-science.io/business/2
 
 ![[source: buisiness-science.io](http://www.business-science.io/assets/ds4b_rating.png)](images/ds4b_rating.png)
 
-Finalmente, cuando se habla de curvas de aprendizaje y/o curvas de experiencia, hay que recordar la existencia de **[discontinuidades en la curva de aprendizaje(https://en.wikipedia.org/wiki/Experience_curve_effects)**.
+Finalmente, cuando se habla de curvas de aprendizaje y/o curvas de experiencia, hay que recordar la existencia de **[discontinuidades en la curva de aprendizaje](https://en.wikipedia.org/wiki/Experience_curve_effects)**.
 
 ### R vs Python
 
@@ -37,13 +61,13 @@ Finalmente, cuando se habla de curvas de aprendizaje y/o curvas de experiencia, 
 
 El aprendizaje de R para data science se ha visto muy facilitado por el `Tidyverse`. En los últimos años se están desarrollando muchas librerías como `dplyr` o `ggplot2` que proporcionan una manera consistente y estructurada para trabajar con datos de todo tipo. Esto hace que la mencionada curva de aprendizaje sea cada vez menos pronunciada para tareas relativamente complejas.
 
-Existen numerosos recursos online para aprender a realizar casi cualquier tarea con R. Para este curso recomendamos los siguientes tutoriales:
+Existen numerosos recursos online para aprender a realizar casi cualquier tarea con R. Para este curso recomendamos los siguientes **tutoriales**:
 
 - [A (very) short introduction to R (2017)](docs/a-very-short-introduction-to-r.pdf)
 - [An Introduction to R (2018)](docs/r-intro.pdf)
 - Rstudio's R language introduction ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf))
 
-Y las siguientes *cheat sheets*:
+Y las siguientes ***cheat sheets***:
 
 - [Base R](docs/base-r-cheat-sheet.pdf)
 - [RStudio's IDE](docs/rstudio-ide-cheat-sheet.pdf)
@@ -51,7 +75,7 @@ Y las siguientes *cheat sheets*:
 - [Visualización](docs/r-data-visualization-cheat-sheet.pdf)
 - [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf)
 
-Evidentemente también hay manuales y libros que recogen toda esta información y mucho más
+Evidentemente, también hay **manuales y libros** que recogen toda esta información (y mucho más):
 
 - [R in Action](https://www.manning.com/books/r-in-action-second-edition?a_bid=5c2b1e1d&a_aid=RiA2ed)
 - [R in 24 Hours, Sams Teach Yourself](https://www.amazon.com/24-Hours-Sams-Teach-Yourself/dp/0672338483)
@@ -79,28 +103,6 @@ Otras librerías menos conocidas también pueden ser consultadas en repositorios
 - [The R graph gallery](https://www.r-graph-gallery.com/)
 
 
-## Desarrollo del taller
 
-### Primera sesión 
-
-Simultaneamente se realizarán las siguientes tareas:
-
-- Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
-- Lectura de la chuleta de [Base R](docs/base-r-cheat-sheet.pdf).
-- Caso de estudio sobre los asistentes al curso
-    - Varios métodos para preparar un dataset (manual, local y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/))
-    - Gráficos con R básico ([Link](https://www.harding.edu/fmccown/r/)).
-    - Gráficos con ggplot y mapas con ggplot [Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html).
-    - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
-
-
-### Segunda sesión
-
-A partir de los contenidos creados en la sesión anterior se redactará un informe en [Rmarkdown](https://rmarkdown.rstudio.com/index.html) para demostrar todo lo trabajado durante el taller.
-
-Pasos a realizar:
-
-1. Utilizar una plantilla de Rstudio para crear un notebook de la sesión anterior.
-2. Revisar la cheat sheet de [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf) para estructurar el documento.
 
 
