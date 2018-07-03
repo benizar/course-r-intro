@@ -50,7 +50,7 @@ sqrt(9)
 # 3
 ```
 
-### ¿Qué piensas que devolverá esta operación?[^Pista]
+¿Qué piensas que devolverá esta operación?[^Pista]
 
 ```r
 factorial(round(2.0015) + 1)
@@ -159,7 +159,7 @@ vec * vec
 # 1 4 9 100 10000
 ```
 
-## Matrices
+### Matrices
 
 Una matriz puede combinar varios elementos en un array bidimiensional
 
@@ -189,9 +189,9 @@ t(mat)
 # [2,]   2    4    6
 ```
 
-## Arrays multidimensionales
+### Arrays multidimensionales
 
-Aunque es menos habitual también podemos estructurar nuestros datos en más dimensiones
+Aunque es menos habitual también podemos estructurar nuestros datos en más dimensiones.
 
 ```r
 array(c(1, 2, 3, 4, 5, 6), dim = c(2, 2, 3))
@@ -218,7 +218,7 @@ array(c(1, 2, 3, 4, 5, 6), dim = c(2, 2, 3))
 
 
 
-## Listas
+### Listas
 
 Una lista es un grupo unidimensional de objetos de R. Los elementos de una lista pueden ser cualquier objeto, incluso vectores u otras listas.
 
@@ -231,7 +231,7 @@ list(c(1, 2), TRUE, c("a", "b", "c"))
 ```
 
 
-## Data Frames
+### Data Frames
 
 Un data frame es un grupo bidimensional de objetos de R. Cada columna puede tener un tipo diferente.
 
@@ -247,6 +247,9 @@ class(df)
 Los elementos de un vector, lista o data frame pueden llevar un nombre asociado.
 
 **Esto es muy distinto a una hoja de cálculo**.
+
+
+### Nombrar al  crear el objeto
 
 ```r
 nvec <- c(one = 1, two = 2, three = 3)
@@ -283,6 +286,9 @@ ndf
 # 2        2       S FALSE
 # 3        3       T TRUE
 ```
+
+
+### Renombrar elementos de un objeto
 
 Los nombres también pueden ser asignados una vez creado el objeto.
 
