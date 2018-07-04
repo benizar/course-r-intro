@@ -22,9 +22,9 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 > - Explorar distintos formatos de salida.
 > - Discutir sobre su aplicabilidad en el trabajo que realizamos.
 
-# [0. ¿Por qué trabajar en R?](src/r-pros-cons.md)
-# [1. Introducción a R](src/r-basics.md)
-# [2. Estructuras de datos](src/r-data-structures.md)
+# [¿Por qué trabajar en R?](src/r-pros-cons.md)
+# [Elementos básicos de R](src/r-basics.md)
+# [Estructuras de datos](src/r-data-structures.md)
 
 
 # Recursos
