@@ -23,10 +23,11 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 > - Explorar distintos formatos de salida.
 > - Discutir sobre su aplicabilidad en el trabajo que realizamos.
 
-# [¿Por qué trabajar en R?](src/r-pros-cons.md)
-# [Elementos básicos de R](src/r-basics.md)
-# [Estructuras de datos](src/r-data-structures.md)
+# Temas
 
+1. [¿Por qué trabajar en R?](src/r-pros-cons.md)
+2. [Elementos básicos de R](src/r-basics.md)
+3. [Estructuras de datos](src/r-data-structures.md)
 
 # Recursos
 - Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
@@ -36,3 +37,7 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 - Gráficos con ggplot y mapas con ggplot ([Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)).
 - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
 - Cheat sheet de [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf).
+
+# [¿Por qué trabajar en R?](src/r-pros-cons.md)
+# [Elementos básicos de R](src/r-basics.md)
+# [Estructuras de datos](src/r-data-structures.md)
