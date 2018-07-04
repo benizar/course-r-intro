@@ -1,6 +1,6 @@
-## Estructuras de datos
+# Estructuras de datos
 
-### Vectores
+## Vectores
 
 Un vector puede combinar varios elementos ordenados en un array unidimiensional. Las operaciones que apliquemos se comportan de acuerdo a la naturaleza de los vectores.
 
@@ -19,7 +19,7 @@ vec * vec
 # 1 4 9 100 10000
 ```
 
-### Matrices
+## Matrices
 
 Una matriz puede combinar varios elementos en un array bidimiensional
 
@@ -49,7 +49,7 @@ t(mat)
 # [2,]   2    4    6
 ```
 
-### Arrays multidimensionales
+## Arrays multidimensionales
 
 Aunque es menos habitual también podemos estructurar nuestros datos en más dimensiones.
 
@@ -76,9 +76,7 @@ array(c(1, 2, 3, 4, 5, 6), dim = c(2, 2, 3))
 ```
 
 
-
-
-### Listas
+## Listas
 
 Una lista es un grupo unidimensional de objetos de R. Los elementos de una lista pueden ser cualquier objeto, incluso vectores u otras listas.
 
@@ -91,7 +89,7 @@ list(c(1, 2), TRUE, c("a", "b", "c"))
 ```
 
 
-### Data Frames
+## Data Frames
 
 Un data frame es un grupo bidimensional de objetos de R. Cada columna puede tener un tipo diferente.
 
@@ -170,3 +168,11 @@ Cada estructura de datos tiene funciones que permiten algunas opciones básicas
 
 
 ## Funciones
+
+En R todo son objetos y llamadas a funciones
+
+> “To understand computations in R, two slogans are helpful:
+    • Everything that exists is an object.
+    • Everything that happens is a function call."
+    — John Chambers
+
