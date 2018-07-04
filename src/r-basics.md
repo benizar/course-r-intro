@@ -1,9 +1,7 @@
 
-# Introducción a R
+# Elementos básicos de R
 
-## Operaciones básicas
-
-### R como calculadora
+## R como calculadora
 
 ```r
 5 + 5
@@ -19,7 +17,7 @@
 # 16
 ```
 
-### Algebra con variables
+## Algebra con variables
 
 Una manera de asignar variables en R es `var <- valor` (hay otras posibilidades). Las variables creadas pueden ser reasignadas o borradas con `rm(var)`.
 
@@ -52,10 +50,11 @@ sqrt(9)
 
 ¿Qué piensas que devolverá esta operación?[^Pista]
 
+[^Pista]: Es como en Excel o en una calculadora (siempre de los paréntesis más anidados hacia los exteriores).
+
 ```r
 factorial(round(2.0015) + 1)
 ```
-[^Pista]: Es como en Excel o en una calculadora (siempre de los paréntesis más anidados hacia los exteriores).
 
 
 ## Tipos de datos
@@ -123,7 +122,7 @@ class(fac)
 # factor
 ```
 
-### Coerción de un tipo de dato
+## Coerción de un tipo de dato
 
 Es importante ya que se pueden perder datos
 
