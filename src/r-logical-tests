@@ -77,3 +77,24 @@ guitars <- df$instrument == "guitar"
 
 df[guitars, ]
 ```
+
+## Valores ausentes (*No data*)
+
+En R los valores ausentes se indican con `NA`.
+
+Los valores ausentes se propagan. Ciertas funciones como `sum()` o `mean()` tienen un argumento `na.rm` para ignorar dichos valores antes de realizar los cálculos.
+
+```r
+b <- c(1, 2, 3, 4, NA)
+sum(b)
+# NA
+
+sum(b, na.rm = TRUE)
+# 10
+```
+
+También podemos reemplazar los valores no deseados durante la preparación de los datos.
+
+```r
+b[is.na(b)] <- 0
+```
