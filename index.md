@@ -1,4 +1,8 @@
-# Breve introducción a R
+---
+title: Breve introducción a R
+---
+
+# Introducción
 
 Este breve taller de R está orientado a ~~geógrafos sin experiencia en R o con poca experiencia en otros lenguajes de programación. Sin embargo,~~ cualquiera con interés en realizar ciencia reproducible, automatizar su trabajo con datos y crear informes estadísticos a partir de sus datos.
 
@@ -38,6 +42,3 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
 - Cheat sheet de [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf).
 
-# [¿Por qué trabajar en R?](src/r-pros-cons.md)
-# [Elementos básicos de R](src/r-basics.md)
-# [Estructuras de datos](src/r-data-structures.md)
