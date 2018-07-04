@@ -13,11 +13,12 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 # Objetivos
 
 > **Primera sesión**
-> - Preparar un dataset con metadatos sobre el curso (5Ws)
-> - Explorar los datos mediante consultas, gráficos y mapas
+> - Preparar un dataset con metadatos sobre el curso (5Ws).
+> - Explorar los datos mediante consultas, gráficos y mapas.
 >
 > **Segunda sesión**
-> Se partira de los contenidos creados en la sesión anterior
+>
+> Se partira de los contenidos creados en la sesión anterior.
 > - Redactar un informe en [Rmarkdown](https://rmarkdown.rstudio.com/index.html) para demostrar todo lo trabajado durante el taller.
 > - Explorar distintos formatos de salida.
 > - Discutir sobre su aplicabilidad en el trabajo que realizamos.
