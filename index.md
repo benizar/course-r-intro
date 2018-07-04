@@ -1,5 +1,5 @@
 ---
-title: Breve introducción a R
+title: "Una breve introducción a R"
 ---
 
 # Introducción
