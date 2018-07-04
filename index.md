@@ -27,6 +27,8 @@ Segunda sesión
 1. [¿Por qué trabajar en R?](src/r-pros-cons.md)
 2. [Elementos básicos de R](src/r-basics.md)
 3. [Estructuras de datos](src/r-data-structures.md)
+4. [Filtrado de datos](src/r-subsetting.md)
+5. [Tests lógicos](src/r-logical-tests.md)
 
 # Recursos
 - Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
