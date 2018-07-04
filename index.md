@@ -10,24 +10,19 @@ A lo largo de **dos sesiones de dos horas cada una** se tratará de que los alum
 4. Comprender las características principales de las **estructuras y tipos de datos nativos** de R.
 5. Crear informes con **Rmarkdown** (con gráficas y mapas temáticos).
 
-## Desarrollo del taller
+# Objetivos
 
-### Primera sesión 
-
-Simultaneamente se realizarán las siguientes tareas:
-
-- Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
-- Lectura de la chuleta de [Base R](docs/base-r-cheat-sheet.pdf).
-- Caso de estudio sobre los asistentes al curso
-    - Varios métodos para preparar un dataset (manual, local y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/))
-    - Gráficos con R básico ([Link](https://www.harding.edu/fmccown/r/)).
-    - Gráficos con ggplot y mapas con ggplot ([Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)).
-    - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
+> **Primera sesión**
+> - Preparar un dataset con metadatos sobre el curso (5Ws)
+> - Explorar los datos mediante consultas, gráficos y mapas
 
 
-### Segunda sesión
+> **Segunda sesión**
 
-A partir de los contenidos creados en la sesión anterior se redactará un informe en [Rmarkdown](https://rmarkdown.rstudio.com/index.html) para demostrar todo lo trabajado durante el taller.
+Se partira de los contenidos creados en la sesión anterior
+- Redactar un informe en [Rmarkdown](https://rmarkdown.rstudio.com/index.html) para demostrar todo lo trabajado durante el taller.
+- Explorar distintos formatos de salida.
+- Discutir sobre su aplicabilidad en el trabajo que realizamos.
 
 Pasos a realizar:
 
@@ -35,5 +30,16 @@ Pasos a realizar:
 2. Revisar la cheat sheet de [Rmarkdown](docs/rmarkdown-cheat-sheet.pdf) para estructurar el documento.
 
 
-# [¡Empezar a trabajar!](src/r-basics.md)
+# [0. ¿Por qué trabajar en R?](src/r-pros-cons.md)
+# [1. Introducción a R](src/r-basics.md)
+# [2. Estructuras de datos](src/r-data-structures.md)
+
+
+# Recursos
+- Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
+- Lectura de la chuleta de [Base R](docs/base-r-cheat-sheet.pdf).
+- Varios métodos para preparar un dataset (manual, local y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/))
+- Gráficos con R básico ([Link](https://www.harding.edu/fmccown/r/)).
+- Gráficos con ggplot y mapas con ggplot ([Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)).
+- Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
 
