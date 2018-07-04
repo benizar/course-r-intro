@@ -60,6 +60,8 @@ df[ ,"birth"]
 df[ ,c("name","birth")]
 df[c(FALSE,TRUE,TRUE,FALSE), ]
 df$birth
+head(df)
+tail(df)
 ```
 
 ## Listas
