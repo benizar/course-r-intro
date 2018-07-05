@@ -34,7 +34,7 @@ Segunda sesión
 # Recursos
 - Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
 - Lectura de la chuleta de [Base R](docs/base-r-cheat-sheet.pdf).
-- Varios métodos para preparar un dataset (manual, local y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/)).
+- Varios métodos para preparar un dataset (manual, [local](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/read.table.html) y [Gdrive](https://www.r-bloggers.com/reading-data-from-google-sheets-into-r/)).
 - Gráficos con R básico ([Link](https://www.harding.edu/fmccown/r/)).
 - Gráficos con ggplot y mapas con ggplot ([Link](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)).
 - Mapas temáticos con [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html#quick-thematic-map).
