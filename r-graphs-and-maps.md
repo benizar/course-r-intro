@@ -5,10 +5,10 @@ Con el ánimo de entender mejor la sintaxis y las funciones disponibles vamos a 
 
 ## Gráficos simples
 
-- [Producing Simple Graphs with R](https://www.harding.edu/fmccown/r/)
+- [Producing Simple Graphs with R](https://www.harding.edu/fmccown/r/). ¿Os atrevéis a crear un climograma con lo visto hasta aquí?
 - [Quick-R](https://www.statmethods.net/graphs/index.html)
 
-¿Os atrevéis a crear un climograma con lo visto hasta aquí?
+
 
 ## Gráficos con ggplot2
 
