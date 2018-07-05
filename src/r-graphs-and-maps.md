@@ -42,3 +42,4 @@ plot(tarragona)
 library(tmap)
 qtm(tarragona)
 ```
+![*Quick Thematic Map* con nuestros propios datos](images/qtm-tarragona.png)
