@@ -29,6 +29,7 @@ Segunda sesión
 3. [Estructuras de datos](r-data-structures.md)
 4. [Filtrado de datos](r-subsetting.md)
 5. [Tests lógicos](r-logical-tests.md)
+6. [Gráficas y mapas](r-graphs-and-maps.md)
 
 # Recursos
 - Introducción a Rstudio y al lenguaje R siguiendo las presentaciones de Rstudio ([primera parte](docs/r-language-1.pdf) y [segunda parte](docs/r-language-2.pdf)).
