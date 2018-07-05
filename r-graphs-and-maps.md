@@ -8,6 +8,8 @@ Con el ánimo de entender mejor la sintaxis y las funciones disponibles vamos a 
 - [Producing Simple Graphs with R](https://www.harding.edu/fmccown/r/)
 - [Quick-R](https://www.statmethods.net/graphs/index.html)
 
+¿Os atrevéis a crear un climograma con lo visto hasta aquí?
+
 ## Gráficos con ggplot2
 
 - Comparación entre ggplot2 y base graphics [link](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html).
