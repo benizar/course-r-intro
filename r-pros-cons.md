@@ -60,8 +60,11 @@ R destaca por su capacidad de crear informes y aplicaciones con mayor eficiencia
 
 Desde sus orígenes, ha resultado muy sencillo acceder a una gran cantidad de librerías de código proporcionadas por la comunidad. Existen más de 14.000 librerías (*packages*) que cubren todo tipo de necesidades, desde el *deep learning* hasta la creación de gráficos o mapas. Estas librerías pueden ser consultadas por temáticas en el [Task View](https://cran.r-project.org/web/views/).
 
-Otras librerías menos conocidas también pueden ser consultadas en repositorios de código de los desarrolladores (ver Github o Bitbucket).
+Otras librerías menos conocidas también pueden ser consultadas en repositorios de código de los desarrolladores (ver Github o Bitbucket) Por ejemplo, nos podemos fijar en las siguientes:
 
+- [AirbnB uses R to scale data science](https://www.r-bloggers.com/airbnb-uses-r-to-scale-data-science)
+- [tweet2r](https://github.com/cran/tweet2r)
+- ...
 
 ### Webs especializadas/social
 
