@@ -34,14 +34,51 @@ El fichero a descargar está dentro del apartado de Información Geográfica de 
 
 Con estos datos, obtendríamos un `Quick Thematic Map` de la siguiente manera:
 
-```r
-library(rgdal)
-shp<-readOGR(".","recintos_provinciales_inspire_peninbal_etrs89")
+![*Quick Thematic Map* con nuestros propios datos](images/qtm-tarragona.png)
 
-tarragona<-shp[shp@data$NAMEUNIT=="Tarragona", ]
+```r
+# Leer un ESRI shapefile con GDAL/OGR
+library(rgdal)
+provincias<-readOGR(".","recintos_provinciales_inspire_peninbal_etrs89")
+# Gráficos básicos de R
+plot(provincias)
+
+# Seleccionar una provincia a partir de un campo de atributos alfanuméricos
+tarragona<-provincias[provincias@data$NAMEUNIT=="Tarragona", ]
 plot(tarragona)
 
+# Geometría computacional con GEOS
+library(rgeos)
+tgn <- gSimplify(tarragona, tol = 0.05, topologyPreserve = TRUE)
+plot(tgn)
+
+# Ajustando algunos parámetros gráficos
+par(mfrow = c(1,2))
+plot(tarragona,main="Original")
+plot(tgn,main="Simplificado")
+
+# tmap es una librería más avanzada para la creación de cartografía temática
+par(mfrow = c(1,1))
 library(tmap)
-qtm(tarragona)
+qtm(provincias, bbox = tmaptools::bb(tarragona),fill = "CODNUT1") +
+  tm_layout(bg.color = "lightblue", main.title = "Tarragona en NUTs") +
+  tm_text("NAMEUNIT",bg.color = "white",remove.overlap = TRUE) +
+  tm_scale_bar(position = c("left", "bottom"))
+
+# Comparar ambos polígonos
+tm_shape(tarragona)+tm_borders(col = "blue") +
+  tm_shape(tgn)+tm_borders(col = "red")
+
+# También cartografía dinámica
+webgis<-qtm(tarragona)
+tmap_leaflet(webgis)
+
+# Haz unas pruebas...
+qtm(provincias)
+prov <- gSimplify(provincias, tol = 0.05, topologyPreserve = TRUE)
+
+catalunya<-provincias[provincias@data$NAMEUNIT=="Tarragona"|
+                        provincias@data$NAMEUNIT=="Barcelona", ]
+cat<-gSimplify(catalunya, tol = 0.05, topologyPreserve = TRUE)
+qtm(cat)
 ```
-![*Quick Thematic Map* con nuestros propios datos](images/qtm-tarragona.png)
