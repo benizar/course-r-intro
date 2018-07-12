@@ -61,7 +61,7 @@ all(c(TRUE, FALSE, TRUE)) #FALSE
 
 La combinación de todo lo que estamos viendo puede resultar muy potente.
 
-Volviendo al ejemplo anterior
+Volviendo al ejemplo anterior, podemos volver a crear el dataframe 
 
 ```r
 df <- data.frame(
@@ -69,6 +69,17 @@ df <- data.frame(
  birth = c(1940, 1942, 1943, 1940),
  instrument = c("guitar", "bass", "guitar", "drums")
 )
+```
+
+o leerlo a partir de un fichero externo. Hay varias maneras, pero esta sería la más rápida
+```r
+# Eliminamos los datos que pudieran existir con anterioridad
+rm(df)
+
+# Leemos un CSV que se encuentra en la nube
+library(readr)
+df <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSATbDLvB4Mjddc120eBbWp--b3nmUndjubCi-DrW2eqqVK6aO4jtqAI451vavH69ki56eQGzgxbL9B/pub?output=csv", locale = locale())
+View(df)
 ```
 
 ¿Qué crees que hará el siguiente código?
