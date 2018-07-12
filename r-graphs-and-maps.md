@@ -26,11 +26,9 @@ Con el ánimo de entender mejor la sintaxis y las funciones disponibles vamos a 
 
 ## Mapa mudo de Tarragona con `tmap`
 
-Vamos a descargar nuestros propios datos del Centro de Descargas del [CNIG](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp#)
+Vamos a descargar nuestros propios datos del Centro de Descargas del [CNIG](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp#) > Información Geográfica de Referencia > líneas límite > (*recintos_provinciales_inspire_peninbal_etrs89.shp*).
 
-El fichero a descargar está dentro del apartado de Información Geográfica de Referencia:
-
-- líneas límite (*recintos_provinciales_inspire_peninbal_etrs89.shp*).
+Para ahorrar tiempo, aquí podéis descargar esa capa dentro de un fichero zip ([descargar](data/recintos_provinciales_inspire_peninbal_etrs89.zip)).
 
 Con estos datos, obtendríamos un `Quick Thematic Map` de la siguiente manera:
 
