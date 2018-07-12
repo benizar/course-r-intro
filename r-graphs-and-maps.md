@@ -37,7 +37,10 @@ Con estos datos, obtendríamos un `Quick Thematic Map` de la siguiente manera:
 ```r
 # Leer un ESRI shapefile con GDAL/OGR
 library(rgdal)
-provincias<-readOGR(".","recintos_provinciales_inspire_peninbal_etrs89")
+download.file("http://benito-zaragozi.com/course-r-intro/data/recintos_provinciales_inspire_peninbal_etrs89.zip", 
+         dest="gis-file.zip", mode="wb") 
+unzip ("gis-file.zip")
+provincias <- readOGR(".","recintos_provinciales_inspire_peninbal_etrs89")
 # Gráficos básicos de R
 plot(provincias)
 
