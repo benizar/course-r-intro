@@ -61,7 +61,7 @@ all(c(TRUE, FALSE, TRUE)) #FALSE
 
 La combinación de todo lo que estamos viendo puede resultar muy potente.
 
-Volviendo al ejemplo anterior, podemos volver a crear el dataframe 
+Volviendo al ejemplo anterior, podemos volver a crear el dataframe o leerlo a partir de un fichero externo que se puede [descargar aquí](data/beatles.csv).
 
 ```r
 df <- data.frame(
@@ -70,8 +70,7 @@ df <- data.frame(
  instrument = c("guitar", "bass", "guitar", "drums")
 )
 ```
-
-o leerlo a partir de un fichero externo. Hay varias maneras, pero esta sería la más rápida
+Otra posibilidad interesante sería la de leer directamente desde la nube
 ```r
 # Eliminamos los datos que pudieran existir con anterioridad
 rm(df)
